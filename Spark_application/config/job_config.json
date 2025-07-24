@@ -1,0 +1,4 @@
+{
+  "input_path": "file:///C:/Users/Administrator/Python_workouts/Pyspark_workouts/Spark_application/data/customers.csv",
+  "output_path": "file:///C:/Users/Administrator/Python_workouts/Pyspark_workouts/Spark_application/output"
+}

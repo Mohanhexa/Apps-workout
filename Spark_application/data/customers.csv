@@ -1,0 +1,7 @@
+customer_id,name,email,purchase_amount
+1,Alice,alice@example.com,1200.50
+2,Bob,bob@example.com,950.00
+3,Charlie,charlie@example.com,2000.75
+4,Diana,diana@example.com,500.00
+5,Eve,eve@example.com,1800.00
+6,mohan,moh@example.com,600.98

@@ -1,0 +1,6 @@
+country_code,transaction_id,user_id,amount,timestamp,country_name
+US,tx001,101,150.75,2025-07-01T10:00:00.000+05:30,United States
+IN,tx002,102,80.0,2025-07-01T10:05:00.000+05:30,India
+DE,tx003,103,200.0,2025-07-01T10:10:00.000+05:30,Germany
+US,tx004,104,120.5,2025-07-01T10:12:00.000+05:30,United States
+FR,tx005,105,300.0,2025-07-01T10:20:00.000+05:30,France

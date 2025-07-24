@@ -1,0 +1,30 @@
+spark submit on local:
+
+PS C:\Users\Administrator\Python_workouts\Pyspark_workouts\Spark_application> spark-submit --py-files utils/transformations.py main.py config/job_config.json
+
+to read parqut files output data or CSV files data
+
+use below commands
+Read Parquet files:
+df = spark.read.parquet("output_dir/")
+df.show()
+
+Read CSV files:
+
+df = spark.read.csv("output_dir/", header=True, inferSchema=True)
+df.show() 
+
+
+
+=====================************************=================
+
+Simple spark-submit command for production cluster
+
+bash or powershell
+
+spark-submit \
+  --master yarn \             # or your cluster manager (e.g., spark://, k8s://)
+  --deploy-mode cluster \     # or client if needed
+  --py-files utils/transformations.py \
+  main.py \
+  config/job_config.json
