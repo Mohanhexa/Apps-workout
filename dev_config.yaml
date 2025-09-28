@@ -1,0 +1,8 @@
+app_name: MyApp
+database:
+  host: localhost
+  name: myapp_dev_db
+  password: pass
+  port: 5432
+  user: user
+debug: true

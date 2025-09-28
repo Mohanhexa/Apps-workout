@@ -1,0 +1,8 @@
+app_name: MyApp
+database:
+  host: staging.db.example.com
+  name: myapp_staging_db
+  password: pass
+  port: 5432
+  user: user
+debug: false
